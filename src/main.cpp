@@ -10,7 +10,7 @@ int main() {
         printf(" Left dial %f \n",  (left.read() * 3.3) );
         printf("Right dial %f \n", (right.read() * 3.3) );
         wait( 1.0 );
-        // Voltage Change = 3.3 / 2**16
+        // Voltage Change = 3.3 / 2^16 = 0.000050354
         // Angle = 360 / 2**16
         }
 }
